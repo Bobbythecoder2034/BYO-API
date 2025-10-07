@@ -1,5 +1,6 @@
 import express from 'express'
 import fs from 'fs'
+import {readFile, writeFile} from 'fs/promises'
 import path from 'path'
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -18,38 +19,42 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(PUBLIC_DIR));
 
+function callback(err){
+  console.log("HELP ME")
+}
+
 async function readJSON(fp, fallback) {
+  console.log("start of reading")
   try {
-    const txt = await fs.readFile(fp, "utf-8");
+    const txt = await readFile(fp, "utf8");
+    console.log(txt)
     return JSON.parse(txt);
   } catch (err) {
-    if (fallback !== undefined) return fallback;
-    throw err;
+    console.log("read error")
   }
 }
 async function writeJSON(fp, data) {
   const txt = JSON.stringify(data, null, 2);
-  await fs.writeFile(fp, txt, "utf-8");
+  await writeFile(fp, txt, "utf8", callback);
 }
 
 app.post("/api", async (req,res)=>{
     try{
-        const {name, airSpeed, walkSpeed, weight, fastestOutOfShield, homeFranchise} = req.body || {}
-        // if(!name || !airSpeed || !walkSpeed || !weight || !fastestOutOfShield || !homeFranchise){
-        //     return res.status(400).json({ error: "name, Air Speed, Walk Speed, weight, Fastest Out of Shield, Home Franchise are required" });
-        // }
+        const {name, airSpeed, runSpeed, weight, fastestOutOfShield, homeFranchise} = req.body
         const current = await readJSON(SUBMISSIONS_PATH, []);
         const item = {
-            name: String(name).trim,
-            airSpeed: String(airSpeed).trim,
-            walkSpeed: String(walkSpeed).trim,
-            weight: String(weight).trim,
-            fastestOutOfShield: String(fastestOutOfShield).trim,
-            homeFranchise: String(homeFranchise).trim,
+            name,
+            airSpeed,
+            runSpeed,
+            weight,
+            fastestOutOfShield,
+            homeFranchise
         }
+        console.log(current)
         current.push(item)
+        console.log(current)
         await writeJSON(SUBMISSIONS_PATH, current)
-        res.status(201).json({ ok:true, submission: item})
+        res.status(201).sendFile(path.join(PUBLIC_DIR, "index.html"))
     }catch(err){
         console.error(err);
         res.status(500).json({ error: "Failed to save submission" });

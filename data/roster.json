@@ -1,3 +1,106 @@
 [
-    
+  {
+    "name": "Mario",
+    "airSpeed": "1.208",
+    "runSpeed": "1.76",
+    "weight": "98",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Donkey Kong",
+    "airSpeed": "1.208",
+    "runSpeed": "1.873",
+    "weight": "127",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "DK"
+  },
+  {
+    "name": "Link",
+    "airSpeed": "0.924",
+    "runSpeed": "1.534",
+    "weight": "104",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Samus",
+    "airSpeed": "1.103",
+    "runSpeed": "1.654",
+    "weight": "108",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Metroid"
+  },
+  {
+    "name": "Dark Samus",
+    "airSpeed": "1.103",
+    "runSpeed": "1.654",
+    "weight": "108",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Metroid"
+  },
+  {
+    "name": "Yoshi",
+    "airSpeed": "1.344",
+    "runSpeed": "2.046",
+    "weight": "104",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Kirby",
+    "airSpeed": "0.84",
+    "runSpeed": "1.727",
+    "weight": "79",
+    "fastestOutOfShield": "Bair",
+    "homeFranchise": "Kirby"
+  },
+  {
+    "name": "Fox",
+    "airSpeed": "1.11",
+    "runSpeed": "2.402",
+    "weight": "77",
+    "fastestOutOfShield": "DownB",
+    "homeFranchise": "Star Fox"
+  },
+  {
+    "name": "Pikachu",
+    "airSpeed": "0.957",
+    "runSpeed": "2.039",
+    "weight": "79",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Luigi",
+    "airSpeed": "0.77",
+    "runSpeed": "1.65",
+    "weight": "97",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Ness",
+    "airSpeed": "1.007",
+    "runSpeed": "1.609",
+    "weight": "94",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mother"
+  },
+  {
+    "name": "Captain Falcon",
+    "airSpeed": "1.218",
+    "runSpeed": "2.552",
+    "weight": "104",
+    "fastestOutOfShield": "UpAir",
+    "homeFranchise": "F-Zero"
+  },
+  {
+    "name": "Jigglypuff",
+    "airSpeed": "1.332",
+    "runSpeed": "1.271",
+    "weight": "68",
+    "fastestOutOfShield": "Dair",
+    "homeFranchise": "Pokemon"
+  }
 ]
