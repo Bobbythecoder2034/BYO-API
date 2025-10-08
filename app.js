@@ -28,7 +28,6 @@ async function readJSON(fp, fallback) {
   console.log("start of reading")
   try {
     const txt = await readFile(fp, "utf8");
-    console.log(txt)
     return JSON.parse(txt);
   } catch (err) {
     console.log("read error")
