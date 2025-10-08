@@ -14,6 +14,7 @@ const __dirname = dirname(__filename);
 const DATA_DIR = path.join(__dirname, "data");
 const PUBLIC_DIR = path.join(__dirname, "public");
 const SUBMISSIONS_PATH = path.join(DATA_DIR, "roster.json");
+const IMAGES_SUBMISSIONS_PATH = path.join(DATA_DIR, "images.json");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -60,8 +61,10 @@ app.post("/api", async (req,res)=>{
         res.status(500).json({ error: "Failed to save submission" });
     }
 })
-app.get("",(req,res)=>{
 
+app.get("/allCharacters", async (req,res)=>{
+  const current = await readJSON(SUBMISSIONS_PATH, []);
+  res.render('full_roster', {roster:current})
 })
 app.get("",(req,res)=>{
 
