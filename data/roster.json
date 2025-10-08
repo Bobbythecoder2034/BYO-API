@@ -102,5 +102,613 @@
     "weight": "68",
     "fastestOutOfShield": "Dair",
     "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Peach",
+    "airSpeed": "1.029",
+    "runSpeed": "1.595",
+    "weight": "89",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Daisy",
+    "airSpeed": "1.029",
+    "runSpeed": "1.595",
+    "weight": "89",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Bowser",
+    "airSpeed": "1.155",
+    "runSpeed": "1.971",
+    "weight": "135",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Ice Climbers",
+    "airSpeed": "0.83",
+    "runSpeed": "1.53",
+    "weight": "92",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Ice Climber"
+  },
+  {
+    "name": "Sheik",
+    "airSpeed": "1.155",
+    "runSpeed": "2.42",
+    "weight": "78",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Zelda",
+    "airSpeed": "1.092",
+    "runSpeed": "1.1",
+    "weight": "85",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Dr. Mario",
+    "airSpeed": "0.924",
+    "runSpeed": "1.398",
+    "weight": "98",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Pichu",
+    "airSpeed": "1.029",
+    "runSpeed": "1.892",
+    "weight": "62",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Falco",
+    "airSpeed": "0.977",
+    "runSpeed": "1.619",
+    "weight": "82",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Star Fox"
+  },
+  {
+    "name": "Marth",
+    "airSpeed": "1.071",
+    "runSpeed": "1.964",
+    "weight": "90",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Lucina",
+    "airSpeed": "1.071",
+    "runSpeed": "1.964",
+    "weight": "90",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Young Link",
+    "airSpeed": "0.966",
+    "runSpeed": "1.749",
+    "weight": "88",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Ganondorf",
+    "airSpeed": "0.83",
+    "runSpeed": "1.34",
+    "weight": "118",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Mewtwo",
+    "airSpeed": "0.9",
+    "runSpeed": "1.8",
+    "weight": "97",
+    "fastestOutOfShield": "Up Smash",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Roy",
+    "airSpeed": "1.302",
+    "runSpeed": "2.145",
+    "weight": "95",
+    "fastestOutOfShield": "UpAir",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Chrom",
+    "airSpeed": "1.302",
+    "runSpeed": "2.145",
+    "weight": "95",
+    "fastestOutOfShield": "UpAir",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Mr. Game & Watch",
+    "airSpeed": "1.176",
+    "runSpeed": "1.679",
+    "weight": "75",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Game & Watch"
+  },
+  {
+    "name": "Meta Knight",
+    "airSpeed": "1.04",
+    "runSpeed": "2.09",
+    "weight": "80",
+    "fastestOutOfShield": "Dair",
+    "homeFranchise": "Kirby"
+  },
+  {
+    "name": "Pit",
+    "airSpeed": "0.935",
+    "runSpeed": "1.828",
+    "weight": "96",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Kid Icarus"
+  },
+  {
+    "name": "Dark Pit",
+    "airSpeed": "0.935",
+    "runSpeed": "1.828",
+    "weight": "96",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Kid Icarus"
+  },
+  {
+    "name": "Zero Suit Samus",
+    "airSpeed": "1.26",
+    "runSpeed": "2.31",
+    "weight": "80",
+    "fastestOutOfShield": "UpB",
+    "homeFranchise": "Metroid"
+  },
+  {
+    "name": "Wario",
+    "airSpeed": "0.9",
+    "runSpeed": "1.8",
+    "weight": "107",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Snake",
+    "airSpeed": "0.987",
+    "runSpeed": "1.595",
+    "weight": "106",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Metal Gear"
+  },
+  {
+    "name": "Ike",
+    "airSpeed": "0.8",
+    "runSpeed": "1.7",
+    "weight": "115",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Squirtle",
+    "airSpeed": "1.3",
+    "runSpeed": "2.2",
+    "weight": "60",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Ivysaur",
+    "airSpeed": "0.8",
+    "runSpeed": "1.4",
+    "weight": "70",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Charizard",
+    "airSpeed": "0.9",
+    "runSpeed": "1.6",
+    "weight": "120",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Diddy Kong",
+    "airSpeed": "0.924",
+    "runSpeed": "2.006",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "DK"
+  },
+  {
+    "name": "Lucas",
+    "airSpeed": "0.9",
+    "runSpeed": "1.6",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mother"
+  },
+  {
+    "name": "Sonic",
+    "airSpeed": "1.2",
+    "runSpeed": "2.5",
+    "weight": "80",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Sonic"
+  },
+  {
+    "name": "King Dedede",
+    "airSpeed": "0.735",
+    "runSpeed": "1.496",
+    "weight": "127",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Kirby"
+  },
+  {
+    "name": "Olimar",
+    "airSpeed": "0.8",
+    "runSpeed": "1.4",
+    "weight": "70",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pikmin"
+  },
+  {
+    "name": "Lucario",
+    "airSpeed": "1.0",
+    "runSpeed": "1.8",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "R.O.B.",
+    "airSpeed": "1.134",
+    "runSpeed": "1.725",
+    "weight": "106",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Nintendo"
+  },
+  {
+    "name": "Toon Link",
+    "airSpeed": "1.0",
+    "runSpeed": "1.8",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Legend of Zelda"
+  },
+  {
+    "name": "Wolf",
+    "airSpeed": "1.281",
+    "runSpeed": "1.54",
+    "weight": "92",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Star Fox"
+  },
+  {
+    "name": "Villager",
+    "airSpeed": "0.9",
+    "runSpeed": "1.6",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Animal Crossing"
+  },
+  {
+    "name": "Mega Man",
+    "airSpeed": "1.13",
+    "runSpeed": "1.75",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mega Man"
+  },
+  {
+    "name": "Wii Fit Trainer",
+    "airSpeed": "0.8",
+    "runSpeed": "1.6",
+    "weight": "84",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Wii Fit"
+  },
+  {
+    "name": "Rosalina & Luma",
+    "airSpeed": "0.9",
+    "runSpeed": "1.4",
+    "weight": "91",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Little Mac",
+    "airSpeed": "0.9",
+    "runSpeed": "2.3",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Punch Out"
+  },
+  {
+    "name": "Greninja",
+    "airSpeed": "1.2",
+    "runSpeed": "1.8",
+    "weight": "78",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Palutena",
+    "airSpeed": "1.0",
+    "runSpeed": "1.55",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Kid Icarus"
+  },
+  {
+    "name": "Pac-Man",
+    "airSpeed": "1.1",
+    "runSpeed": "1.6",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pac-Man"
+  },
+  {
+    "name": "Robin",
+    "airSpeed": "0.9",
+    "runSpeed": "1.5",
+    "weight": "92",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "shulk",
+    "airSpeed": "1.05",
+    "runSpeed": "1.7",
+    "weight": "88",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Xenoblade Chronicles"
+  },
+  {
+    "name": "Bowser Jr.",
+    "airSpeed": "0.75",
+    "runSpeed": "1.55",
+    "weight": "95",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Duck Hunt",
+    "airSpeed": "1.0",
+    "runSpeed": "1.5",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Duck Hunt"
+  },
+  {
+    "name": "Ryu",
+    "airSpeed": "0.9",
+    "runSpeed": "1.4",
+    "weight": "99",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Street Fighter"
+  },
+  {
+    "name": "Ken",
+    "airSpeed": "0.9",
+    "runSpeed": "1.4",
+    "weight": "99",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Street Fighter"
+  },
+  {
+    "name": "Cloud",
+    "airSpeed": "1.2",
+    "runSpeed": "1.45",
+    "weight": "99",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Final Fantasy"
+  },
+  {
+    "name": "Corrin",
+    "airSpeed": "0.9",
+    "runSpeed": "1.5",
+    "weight": "95",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Bayonetta",
+    "airSpeed": "1.05",
+    "runSpeed": "2.15",
+    "weight": "86",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Bayonetta"
+  },
+  {
+    "name": "Inkling",
+    "airSpeed": "1.3",
+    "runSpeed": "1.9",
+    "weight": "75",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Splatoon"
+  },
+  {
+    "name": "Ridley",
+    "airSpeed": "1.05",
+    "runSpeed": "2.2",
+    "weight": "107",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Metroid"
+  },
+  {
+    "name": "Simon",
+    "airSpeed": "0.7",
+    "runSpeed": "1.3",
+    "weight": "98",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Castlevania"
+  },
+  {
+    "name": "Richter",
+    "airSpeed": "0.7",
+    "runSpeed": "1.3",
+    "weight": "98",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Castlevania"
+  },
+  {
+    "name": "King K. Rool",
+    "airSpeed": "0.7",
+    "runSpeed": "1.4",
+    "weight": "120",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "DK"
+  },
+  {
+    "name": "Isabelle",
+    "airSpeed": "0.85",
+    "runSpeed": "1.7",
+    "weight": "80",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Animal Crossing"
+  },
+  {
+    "name": "Incineroar",
+    "airSpeed": "0.6",
+    "runSpeed": "1.3",
+    "weight": "130",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Pokemon"
+  },
+  {
+    "name": "Piranha Plant",
+    "airSpeed": "0.7",
+    "runSpeed": "1.3",
+    "weight": "80",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Mario"
+  },
+  {
+    "name": "Joker",
+    "airSpeed": "1.05",
+    "runSpeed": "2.1",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Persona"
+  },
+  {
+    "name": "Hero",
+    "airSpeed": "0.9",
+    "runSpeed": "1.5",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Dragon Quest"
+  },
+  {
+    "name": "Banjo & Kazooie",
+    "airSpeed": "1.0",
+    "runSpeed": "1.8",
+    "weight": "92",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Banjo-Kazooie"
+  },
+  {
+    "name": "Terry",
+    "airSpeed": "0.8",
+    "runSpeed": "1.4",
+    "weight": "95",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Fatal Fury"
+  },
+  {
+    "name": "Byleth",
+    "airSpeed": "0.8",
+    "runSpeed": "1.3",
+    "weight": "95",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Fire Emblem"
+  },
+  {
+    "name": "Min-Min",
+    "airSpeed": "1.0",
+    "runSpeed": "1.6",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "ARMS"
+  },
+  {
+    "name": "Steve",
+    "airSpeed": "0.9",
+    "runSpeed": "1.35",
+    "weight": "92",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Minecraft"
+  },
+  {
+    "name": "Sephiroth",
+    "airSpeed": "1.0",
+    "runSpeed": "1.5",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Final Fantasy"
+  },
+  {
+    "name": "Pyra",
+    "airSpeed": "1.0",
+    "runSpeed": "1.3",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Xenoblade Chronicles"
+  },
+  {
+    "name": "Mythra",
+    "airSpeed": "1.2",
+    "runSpeed": "1.7",
+    "weight": "85",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Xenoblade Chronicles"
+  },
+  {
+    "name": "Kazuya",
+    "airSpeed": "0.9",
+    "runSpeed": "1.3",
+    "weight": "100",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Tekken"
+  },
+  {
+    "name": "Sora",
+    "airSpeed": "1.1",
+    "runSpeed": "1.7",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Kingdom Hearts"
+  },
+  {
+    "name": "Mii Brawler",
+    "airSpeed": "1.1",
+    "runSpeed": "1.8",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Nintendo"
+  },
+  {
+    "name": "Mii Swordfighter",
+    "airSpeed": "1.0",
+    "runSpeed": "1.7",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Nintendo"
+  },
+  {
+    "name": "Mii Gunner",
+    "airSpeed": "1.1",
+    "runSpeed": "1.6",
+    "weight": "90",
+    "fastestOutOfShield": "Nair",
+    "homeFranchise": "Nintendo"
   }
 ]
