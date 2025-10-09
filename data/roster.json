@@ -710,5 +710,13 @@
     "weight": "90",
     "fastestOutOfShield": "Nair",
     "homeFranchise": "Nintendo"
+  },
+  {
+    "name": "Christmas",
+    "airSpeed": "5.0",
+    "runSpeed": "1.5",
+    "weight": "251",
+    "fastestOutOfShield": "5",
+    "homeFranchise": "Legend of Zelda"
   }
 ]

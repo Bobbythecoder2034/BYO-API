@@ -16,13 +16,14 @@ const PUBLIC_DIR = path.join(__dirname, "public");
 const SUBMISSIONS_PATH = path.join(DATA_DIR, "roster.json");
 const IMAGES_SUBMISSIONS_PATH = path.join(DATA_DIR, "images.json");
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static(PUBLIC_DIR));
 
 function callback(err){
   console.log("HELP ME")
 }
+app.set('view engine', 'ejs')
 
 async function readJSON(fp, fallback) {
   console.log("start of reading")
@@ -60,8 +61,24 @@ app.post("/api", async (req,res)=>{
         res.status(500).json({ error: "Failed to save submission" });
     }
 })
+//Pass a character to display
+app.post("/character", async (req,res)=>{
+  try{
+    
+    const {name} = req.body
+    
+    const current = await readJSON(SUBMISSIONS_PATH, []);
+    const maybe = current.find(x=>{
+      return x.name.toLowerCase().trim() == name.toLowerCase().trim()
+    })
+    res.render('character', {roster:current, showcase:maybe})
+  }catch(err){
+    res.status(404).sendFile(path.join(PUBLIC_DIR, "404.html"))
+  }
+  
+})
 
-app.get("/allCharacters", async (req,res)=>{
+app.get("/fullRoster", async (req,res)=>{
   const current = await readJSON(SUBMISSIONS_PATH, []);
   res.render('full_roster', {roster:current})
 })
@@ -83,7 +100,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(PUBLIC_DIR, "index.html"));
 });
 app.use((req, res) => {
-  res.status(404).json({ error: "Page not found" });
+  res.status(404).sendFile(path.join(PUBLIC_DIR, "404.html"));
 });
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);

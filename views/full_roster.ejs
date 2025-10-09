@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roster</title>
+    <title>Full Roster</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <% roster.forEach(x=>{ &>
-        <p>Name: <%= x.name %>___Run Speed: <%= x.runSpeed %>____ Air Speed: <%= x.airSpeed %></p>
-    <& }) %>
+    <form action="/">
+        <button type="submit">Return to character addition</button>
+    </form>
+    <form action="/character" method="POST" class="form">
+        <label>Enter a character's name
+            <input type="text" required name="name">
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+    <%- include("./partials/roster.ejs") %>
 </body>
 </html>

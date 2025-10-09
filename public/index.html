@@ -6,11 +6,14 @@
     <title>Super Smash Bros</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
     
 </head>
 <body>
-    <form action="/api" method="POST" class="flex flex-col">
+    <br>
+    <br>
+    <h1>Enter Your Own Character</h1>
+    <form action="/api" method="POST" class="form">
         <label>Name
             <input type="text" required name="name">
         </label>
@@ -31,7 +34,12 @@
         </label>
         <button type="submit">Submit</button>
     </form>
-
+    <br>
+    <br>
+    <p>You can enter a custom character in the form above. Access the entire roster throught the button below and enter the name of characters in the roster to view their stats.</p>
+    <form action="/fullRoster">
+        <button type="submit">Access the Entire Roster</button>
+    </form>
     <img src="" alt="">
     <script src="./script.js"></script>
 </body>
